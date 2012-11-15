@@ -43,20 +43,9 @@ species_list = np.genfromtxt(filename2, dtype=None, names = True, delimiter=",")
 print find_badcodes_indata(data, species_list)
 print find_sitename_typos(data)
 print find_bad_transect_locations(data)
-#Test area below
-transect_locs = set(range(10,2510,10))
-observed_locs = set(data['Location'])
-bad_transect_values = observed_locs-transect_locs
-missing_transect_values = transect_locs-observed_locs
 
-if bad_transect_values and missing_transect_values:
-    print "Bad Locations:" + bad_transect_values + "\n Missing Locations:" + missing_transect_values
-elif bad_transect_values:
-    print "Bad Locations:", bad_transect_values, "\n No Missing Locations"
-elif missing_transect_values:
-    print "No Bad Locations \n Missing Locations:", missing_transect_values
-else:
-    print "Transect locations: ok"
+#Test area below
+
 
     
 
