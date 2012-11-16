@@ -34,19 +34,18 @@ def find_bad_transect_locations(datafile):
         return "Transect locations: ok"
  
 """main code"""    
-filename = "RiparianNorth_transects_2012.csv"
-data = np.genfromtxt(filename, dtype=None, names = True, delimiter=",")
-
+filenames = ["RiparianNorth_transects_2012.csv", "CattleTankNorth_transects_2012.csv",
+             "CattleTankSouth_transects_2012.csv", "GrassyDrainage_transects_2012.csv",
+             "Plot17_transects_2012.csv", "Plot22_transects_2012.csv", 
+             "RiparianSouth_transects_2012.csv", "WasserSite_transects_2012.csv"]
 filename2 = "SpList.csv"
 species_list = np.genfromtxt(filename2, dtype=None, names = True, delimiter=",")
 
-print find_badcodes_indata(data, species_list)
-print find_sitename_typos(data)
-print find_bad_transect_locations(data)
-
-#Test area below
-
-
+for filename in filenames:
+    data = np.genfromtxt(filename, dtype=None, names = True, delimiter=",")   
+    print filename, find_badcodes_indata(data, species_list)
+    print filename, find_sitename_typos(data)
+    print filename, find_bad_transect_locations(data)
     
 
 
