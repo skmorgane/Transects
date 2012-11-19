@@ -22,17 +22,17 @@ def find_sitename_typos(datafile):
 def find_bad_transect_locations(datafile):
     transect_locs = set(range(10,2510,10))
     observed_locs = set(datafile['Location'])
-    bad_transect_values = observed_locs-transect_locs
-    missing_transect_values = transect_locs-observed_locs  
+    bad_transect_values = observed_locs - transect_locs
+    missing_transect_values = transect_locs - observed_locs  
     if bad_transect_values and missing_transect_values:
-        return "Bad Locations:" + bad_transect_values + "\n Missing Locations:" + missing_transect_values
+        return bad_transect_values + missing_transect_values
     elif bad_transect_values:
-        return "Bad Locations:" + bad_transect_values + "\n No Missing Locations"
+        return bad_transect_values
     elif missing_transect_values:
-        return "No Bad Locations \n Missing Locations:" + missing_transect_values
+        return missing_transect_values
     else:
         return "Transect locations: ok"
- 
+   
 """main code"""    
 filenames = ["RiparianNorth_transects_2012.csv", "CattleTankNorth_transects_2012.csv",
              "CattleTankSouth_transects_2012.csv", "GrassyDrainage_transects_2012.csv",
