@@ -1,7 +1,9 @@
-Sp_Code,Scientific Name,Common Name,Family,Lifespan,Growth Form,Native,questions
+SpCode,ScientificName,CommonName,Family,Lifespan,GrowthForm,Native,questions
 acaccons,Acacia constricta,Whitethorn acacia,Fabaceae,perennial,shrub,1,
 acacgreg,Acacia greggii,Catclaw acacia,Fabaceae,perennial,shrub,1,
+acacspp,Acacia spp.,No white thorns,Fabaceae,perennial,shrub,1,
 alliinca,Allionia incarnata,Trailing windmills,Nyctaginaceae,perennial,forb,1,
+amaracan,Amaranthus acanthochiton,Greenstripe,Amaranthaceae,annual,forb,1,
 amarpalm,Amaranthus palmeri,carelessweed,Amaranthaceae,annual,forb,1,
 ambrarte,Ambrosia artemisiifolia,annual ragweed,Asteraceae,annual,forb,1,
 ammochen,Ammocodon chenopodioides,Goosefoot monopod,Nyctaginaceae,perennial,forb,1,
@@ -11,6 +13,7 @@ arishamu,Aristida hamulosa,Mesa threeawn,Poaceae,perennial,grass,1,
 arislong,Aristida longiseta,Purple threeawn,Poaceae,perennial,grass,1,
 atriacan,Atriplex acanthocarpa,Saltbush,Chenopodiaceae,perennial,subshrub,1,shrub
 atriwrig,Atriplex wrightii,Wright's saltbush,Chenopodiaceae,annual,forb,1,
+atrispp,Atriplex spp.,Unknown saltbush,Chenopodiaceae,NULL,forb,1,
 bahiabsi,Bahia absinthifolia,Sageleaf Bahia,Asteraceae,perennial,forb,1,
 bahibite,Bahia biternata,slimlobe bahia,Asteraceae,annual,forb,1,
 bailmult,Baileya multiradiata,desert marigold,Asteraceae,annual,forb,1,
@@ -45,6 +48,7 @@ ennedesv,Enneapogon desvauxii,Nineawn pappusgrass,Poaceae,perennial,grass,1,
 ephetrif,Ephedra trifurca,Longleaf jointfir,Ephedraceae,perennial,shrub,1,
 eragarid,Eragrostis pectinaceae (arida),desert lovegrass,Poaceae,annual,grass,1,
 eragcili,Eragrostis cilianensis,stinkgrass,Poaceae,annual,grass,0,
+eraginte,Eragrostis intermedia,plains lovegrass,Poaceae,perennial,grass,1,
 eraglehm,Eragrostis lehmanniana,Lehmann’s lovegrass,Poaceae,perennial,grass,0,
 eragspp,Eragrostis species,NULL,Poaceae,NULL,grass,2,
 erigdive,Erigeron divergens,spreading fleabane,Asteraceae,annual,forb,1,
@@ -100,12 +104,14 @@ setamacr,Setaria macrostachya,Bristle grass,Poaceae,perennial,grass,1,
 sidaphys,Sida physocalyx,Buffpetal,Malvaceae,perennial,subshrub,1,forb
 sidaproc,Sida procumbens,Spreading fanpetals,Malvaceae,perennial,forb,0,
 sidaspin,Sida spinosa,prickly fanpetals,Malvaceae,annual,forb,1,
-sidaspp.,Sida spp.,NULL,Malvaceae,annual,,1,
+sidaspp,Sida spp.,NULL,Malvaceae,annual,forb,1,
 sitahyst,Sitanion hystrix,Squirreltail,Poaceae,perennial,grass,1,
 solaelea,Solanum elaeagnifolium,Silverleaf nightshade,Solanaceae,perennial,subshrub,1,forb
 sperechi,Spermolepis echinata,Bristly scaleseed,Apiaceae,perennial,forb,1,
+sphasp1,Sphaeralcea spp.,NULL,Malvaceae,perennial,NULL,1,
 sphaangu,Sphaeralcea angustifolia,Copper globemallow,Malvaceae,perennial,subshrub,1,forb
 sphalaxa,Sphaeralcea laxa,Caliche globemallow,Malvaceae,perennial,subshrub,1,forb
+sphafend,Sphaeralcea fendleri,Fendler's globemallow,Malvaceae,perennial,subshrub,1,forb
 sporcont,Sporobolus contractus,Spike dropseed,Poaceae,perennial,grass,1,
 stepexig,Stephanomeria exigua,Small wirelettuce,Asteraceae,perennial,forb,1,
 taliangu,Phemeranthus (Talinum) aurantiacus (angustissimum),orange fameflower,Portulacaceae,annual,forb,1,perennial
@@ -117,11 +123,16 @@ tragbert,Tragus berteronianus,spiked bur grass,Poaceae,annual,grass,0,
 triaport,Trianthema portulacastrum,desert horsepurslane,Aizoaceae,annual,forb,1,
 triccali,Trichachne californica,Arizona cottontop,Poaceae,perennial,grass,1,
 tridpulc,Tridens pulchellum,Fluff grass,Poaceae,perennial,grass,1,
-unknspp,Unknown spp.,NULL,NULL,annual,,,
+unknspp,Unknown spp.,NULL,NULL,annual,,NULL,
 verbence,Verbesina encelioides,golden crownbeard,Asteraceae,annual,forb,1,
 vulpocto,Vulpia octoflora,Sixweeks fescue,Poaceae,perennial,grass,1,annual
 yuccelat,Yucca elata,Soaptree yucca,Agavaceae,perennial,shrub,1,
 zinngran,Zinnia grandiflora,Wild zinnia,Asteraceae,perennial,subshrub,1,forb
 zinnpumi,Zinnia pumila,Desert zinnia,Asteraceae,perennial,subshrub,1,forb
-dirt,NULL,not living plant,NULL,NULL,NULL,NULL,NULL
-rock,NULL,rocks,NULL,NULL,NULL,NULL,NULL
+dirt,NULL,not living plant,NULL,NULL,NULL,NULL,
+rock,NULL,rocks,NULL,NULL,NULL,NULL,
+sarahsgrass,NULL,unknown smelly grass,Poaceae,NULL,grass,2,
+dead,NULL,dead plants,NULL,NULL,NULL,NULL,
+redunk,NULL,Red unknown,NULL,NULL,forb,2,
+cowpie,NULL,Cattle dung,NULL,NULL,NULL,NULL,
+thisgrass,NULL,Unknown grass,Poaceae,NULL,grass,2,
